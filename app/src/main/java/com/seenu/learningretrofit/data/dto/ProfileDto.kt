@@ -6,7 +6,7 @@ import com.squareup.moshi.JsonClass
 
 
 @JsonClass(generateAdapter = true)
-data class ProfilesDto(
+data class ProfileDto(
     @field:Json(name = "platform") val platform: String,
     @field:Json(name = "url") val url : String
 )
